@@ -19,6 +19,7 @@ public class BookServiceImpl implements BookService {
 		books.add(new Book("12321", "War & Peace", "Tolstoy"));
 		books.add(new Book("55556", "Darwin and his bears", "Sulloway"));
 		books.add(new Book("77888", "The art of war", "Sun Tzu"));
+		books.add(new Book("1234", "The children photos", "John"));
 		
 		return books;
 	}
